@@ -1,0 +1,540 @@
+.header {
+    height: 72px;
+    width: 100%;
+    background: #1E3233;
+    border: 1px solid #000000;
+}
+
+/*社員情報スタイル*/
+.employee_bg_1 {
+    display: flex;
+    width: calc((100% - 92px)/2);
+    height: 942px;
+    margin: 20px 20px 50px 20px;
+    background: #1E3233;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.employee_bg_2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 22px);
+    height: 920px;
+    margin: 11px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*頭文字検索スタイル*/
+
+.form_assist_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: calc(100% - 20px);
+    height: 50px;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form_assist {
+    width: calc(100%/11);
+    height: 100%;
+    padding-top: 15px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    background: #DDDDDD;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*頭文字検索スタイル終了*/
+
+/*詳細検索スタイル*/
+
+.input_form {
+    display: flex;
+    width: calc(100% - 180px);
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.search_btn {
+    display: flex;
+    width: 150px;
+    background: rgba(25, 167, 206, 0.9);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    padding: 0 51px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*詳細検索スタイル終了*/
+
+/*社員一覧スタイル*/
+
+.employee_bg_3 {
+    width: calc(100% - 20px);
+    height: 710px;
+    margin: 10px 10px;
+    background-color: red;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+/*社員一覧スタイル終了*/
+
+/*社員タイトル終了*/
+
+.employee_info_menu {
+    width: 22%;
+    height: 50px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 24px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*社員タイトル終了*/
+
+/*社員テーブル*/
+
+.employee_line{
+    width: 100%;
+}
+
+.employee {
+    width: 22%;
+    height: 66px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 24px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.employee_floor {
+    width: 12%;
+    height: 66px;
+    background: #FFFFFF;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 24px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*社員テーブルボタンスタイル*/
+
+.table_skip_forms {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 10px;
+    width: calc(100% - 20px);
+    height: 60px;
+}
+
+.skip_btn {
+    width: 25%;
+    height: 100%;
+    padding-top: 2px;
+    background: #1E3233;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
+.left_btn {
+    display: inline-block;
+    border-style: solid;
+    border-width: 14px 24px 14px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.right_btn {
+    display: inline-block;
+    border-style: solid;
+    border-width: 14px 0 14px 24px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.table_num {
+    font-size: 46px;
+    padding-top: 6px;
+    width: 50%;
+    height: 100%;
+}
+
+/*社員テーブルボタンスタイル終了*/
+
+/*社員テーブル終了*/
+
+/*社員情報スタイル終了*/
+
+/*社員詳細スタイル*/
+
+.employee_form_group_bg {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: 900px;
+    background: #FFFFFF;
+    border: 1px solid #000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*社員詳細情報タイトルスタイル*/
+
+.employee_table_title_bg {
+    display: flex;
+    width: 100%;
+    height: 98px;
+    background: #1E3233;
+    border-bottom: 1px solid #000000;
+}
+
+.employee_table_title {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 20px);
+    height: 77px;
+    background-color: #1E3233;
+    margin: 10px;
+}
+
+.employee_user {
+    display: flex;
+    width: 300px;
+    height: 77px;
+    background-color: #1E3233;
+}
+
+.employee_user_icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    Overflow: hidden;
+    cursor: pointer;
+}
+
+.employee_user_icon_head {
+    display: flex;
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.employee_user_icon_body {
+    display: flex;
+    background: #fff;
+    width: 52px;
+    height: 47px;
+    border-radius: 40% 40% 0% 0%;
+    margin-top: 2px;
+}
+
+.employee_user_name {
+    width: 228px;
+    height: 40px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    color: #fff;
+
+}
+
+.employee_user_id {
+    width: 228px;
+    height: 27px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.employee_info {
+    width: 200px;
+    height: 77px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 65px;
+    color: #FFFFFF;
+    border: 8px solid #1E3233;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/*社員詳細情報タイトルスタイル終了*/
+
+/*社員詳細情報テーブルスタイル*/
+
+.employee_form_title {
+    height: 100px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.employee_form {
+    width: 70%;
+    height: 100px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #000000;
+}
+
+/*社員詳細情報テーブルスタイル終了*/
+
+/*社員詳細フォームスタイル*/
+
+.employee_id_form_textbox {
+    display: flex;
+    width: calc(100% - 20px);
+    height: 79px;
+    margin: 10px;
+    background: rgba(204, 204, 204, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.employee_name_form_bg {
+    display: flex;
+    width: calc(50% - 20px);
+    height: 79px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.employee_name {
+    width: 32px;
+    height: 79px;
+    border-width: 23px 0;
+    border-style: solid;
+    border-color: #fff;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 33px;
+    display: flex;
+    color: #000000;
+}
+
+.employee_form_name_textbox {
+    width: calc(100% - 32px);
+    height: 79px;
+    background: rgba(204, 204, 204, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.employee_form_dropdown {
+    width: calc(100% - 20px);
+    height: 79px;
+    margin: 10px;
+    background: rgba(204, 204, 204, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+}
+
+.employee_form_radiobtn_bg {
+    width: calc(100% - 20px);
+    height: 79px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.employee_radiobtn {
+    display: flex;
+    width: 100%;
+}
+
+.employee_radiobtn label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    border-width: 10px 0px;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 36px;
+    width:  50%;
+    height: 79px;
+}
+
+.employee_radiobtn label::before,
+.employee_radiobtn label:has(:checked)::after {
+    border-radius: 80%;
+    content: '';
+}
+
+.employee_radiobtn label::before {
+    width: 60px;
+    height: 59px;
+    background: rgba(204, 204, 204, 0.3);
+    border: 1px solid #000000;
+}
+
+.employee_radiobtn label:has(:checked)::after {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%, -50%);
+    width: 53px;
+    height: 53px;
+    background-color: #000000;
+    animation: anim-employee_radiobtn .3s linear;
+}
+
+@keyframes anim-employee_radiobtn {
+    0% {
+        box-shadow: 0 0 0 1px transparent;
+    }
+
+    50% {
+        box-shadow: 0 0 0 10px #00000033;
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px transparent;
+    }
+}
+
+.employee_radiobtn input {
+    display: none;
+}
+
+/*社員詳細フォームスタイル終了*/
+
+
+
+/*社員詳細ページボタンスタイル*/
+
+.employee_form_btns {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 20px);
+    height: 80px;
+    margin: 10px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+.employee_back_btn {
+    width: 30%;
+    height: 78px;
+    background: #FFFFFF;
+    border: 8px solid #1E3233;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.employee_ok_btn {
+    width: 30%;
+    height: 78px;
+    background: #F86D17;
+    border: 8px solid #F86D17;
+    margin: 0 0 0 auto;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.employee_btn_text {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+
+/*社員詳細ページボタンスタイル終了*/
+
+/*社員詳細スタイル終了*/
