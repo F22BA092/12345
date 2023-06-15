@@ -131,7 +131,7 @@
 }
 
 .carender_info_wiget {
-    width: 129px;
+    width: 120px;
     height: 26px;
     background-color: #fff;
     display: flex;
@@ -140,9 +140,8 @@
 
 .carender_mounth_wiget {
     height: 26px;
-    margin: 0 5px;
     flex: 1;
-    max-width: calc(100% - 2px);
+    width:  100%;
     /* 横マージンを考慮した最大幅 */
     background-color: #fff;
     font-family: 'Noto Serif';
@@ -161,7 +160,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 24px;
     color: #52616B;
     display: flex;
@@ -203,7 +202,7 @@
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 13px;
     display: flex;
     align-items: flex-end;
     color: #52616B;
@@ -228,10 +227,11 @@
 /*両端に4pxのmarginを設ける事とする*/
 
 .carender_week_bg {
-    width: 68px;
+    width: calc(100%/5);
     height: 52px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: column;
     text-align: center;
     margin: 0 auto;
     background: #F05454;
@@ -239,9 +239,15 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.carender_radiobtn{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
 .carender_week_elem {
-    height: 12px;
-    margin: 5px 5px 0px 5px;
+    margin-top: 5px;
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: 400;
@@ -250,12 +256,11 @@
 }
 
 .carender_week {
-    height: 30px;
-    margin: 0px 5px 5px 5px;
+    margin-top: 5px;
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 24px;
     align-items: center;
     color: #fff;
 }
