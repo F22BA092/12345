@@ -10,8 +10,12 @@ function nowDate() {
         var day = date.getDate();
         var hour = date.getHours();
         var min = date.getMinutes();
+        if((min.toString().length) == 1){
+        ele.innerHTML = day + "日 " + hour + ":0" + min;
+    }else{
         ele.innerHTML = day + "日 " + hour + ":" + min;
-    }, 100);
+    }
+    }, 1000);
 }
 
 function nowMounth() {
