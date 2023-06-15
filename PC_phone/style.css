@@ -237,6 +237,7 @@
     height: 52px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .carender_week_elem {
