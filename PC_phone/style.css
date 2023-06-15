@@ -36,8 +36,7 @@
 }
 
 .title_name {
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
@@ -72,8 +71,7 @@
 .logout_text {
     margin-left: 5px;
     margin-top: 12px;
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     font-weight: 400;
     font-size: 21px;
     width: 105px;
@@ -144,8 +142,7 @@
     width:  100%;
     /* 横マージンを考慮した最大幅 */
     background-color: #fff;
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     font-weight: 400;
     font-size: 27px;
     text-align: center;
@@ -153,8 +150,7 @@
 }
 
 .carender_day_wiget {
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     max-width: 100%;
     height: 26px;
     font-family: 'Inter';
@@ -199,8 +195,7 @@
 .user_name {
     max-width: 100%;
     height: 26px;
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     font-weight: 400;
     font-size: 13px;
     display: flex;
@@ -247,8 +242,7 @@
 .carender_week_elem {
     width: 100%;
     margin-top: 5px;
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     font-weight: 400;
     font-size: 13px;
     color: #fff;
@@ -257,8 +251,7 @@
 .carender_week {
     width: 100%;
     margin-top: 5px;
-    font-family: 'Noto Serif';
-    font-style: normal;
+    font-family: serif;
     font-weight: 500;
     font-size: 15px;
     color: #fff;
