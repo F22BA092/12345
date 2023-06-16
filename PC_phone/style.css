@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+.content::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+}
+
 /*ヘッダースタイル作成ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 
 .header {
@@ -139,7 +144,7 @@
 .carender_mounth_wiget {
     height: 26px;
     flex: 1;
-    width:  100%;
+    width: 100%;
     /* 横マージンを考慮した最大幅 */
     background-color: #fff;
     font-family: serif;
@@ -232,7 +237,7 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.carender_radiobtn{
+.carender_radiobtn {
     width: 100%;
     height: 52px;
     display: flex;
@@ -316,9 +321,33 @@
 .carender_content_bg {
     width: 100%;
     height: 428px;
+    display: flex;
+    flex-direction: row;
     border-width: 0px 1px 1px 1px;
     border-style: solid;
     border-color: #000000;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE, Edge 対応 */
+    scrollbar-width: none;
+    /* Firefox 対応 */
+    white-space: nowrap;
+}
+
+.carender_hour_bg {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 1189.5px;
+    border-right: 1px solid #000000;
+}
+
+.carender_timeline_bg {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 1189.5px;
+    background-color: #05BFDB;
 }
 
 /*合計就労時間スタイル作成ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
