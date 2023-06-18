@@ -429,21 +429,10 @@
     overflow: overlay;
 }
 
-.carender_content_bg::-webkit-scrollbar {
-    width: 5px;
-    background: rgba(0, 0, 0, 0.15);
-}
-
-.carender_content_bg::-webkit-scrollbar-thumb {
-    width: 5px;
-    background-color: #30475E;
-    border-radius: 20px;
-}
-
 .carender_time_cell_bg {
     display: flex;
     flex-direction: column;
-    width: calc(20% + 1.1px);
+    width: 20%;
     height: 1189.5px;
     border-right: 1px solid #000000;
 }
@@ -477,7 +466,7 @@
 
 .carender_timeline_bg {
     display: flex;
-    width: calc(80% - 0.3px);
+    width: 80%;
     height: 1189.5px;
 }
 
